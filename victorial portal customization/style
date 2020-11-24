@@ -1,0 +1,374 @@
+.announcement-banner-container .announcement-show-all-link{
+	    border-bottom: 0px dashed #888;
+}
+body[page='portal_home'] main {
+    background: #fff;
+}
+.popular-content .mb-0{
+  margin-bottom:0;
+}
+ul.header-list li {
+    padding: 0;
+    margin: 13px 0 0 0;
+}
+header#header-main {
+    background: #032261;
+    height: 73px;
+    padding: 10px 0;
+}
+header .portal-logo {
+    max-height: 76px;
+    margin: 0px 0 0 0;
+    width: auto;
+}
+.header-list li a.header-btn:hover {
+    color: #FFFF00;
+    border: 1px solid #ffff00;
+}
+#home-page-container #hero-banner{
+  margin-top:0;
+}
+#home-page-container #cards-banner.banner-4 {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.header-list{
+	display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.header-list.hide{
+	display:none;
+}
+.header-list li a{
+    color: #fff;
+      font-size: 16px;
+}
+.header-list li a:hover {
+    color: #FFFF00;
+  text-decoration:none;
+}
+a.header-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+.header-list li a.active{
+	color:#FFFF00;
+}
+.announcement-section{
+  background:#610335;
+}
+#announcement-banner {
+    top: -64px;
+    background-color: #610335;
+    display: inline-block;
+    margin-top: 0;
+    left: 0;
+    transform: translateX(0%);
+    position: absolute;
+    border: 0;
+    width: 100%;
+    height: 50px;
+
+}
+.announcement-banner-container {
+    display: block;
+    display: flex;
+    align-items: center;
+    border-top: 0px solid #848FFF;
+}
+#announcement-banner .announcement-banner-container .announcement-latest {
+    border-right: 0px solid!important;
+  padding:0;
+}
+#announcement-banner .announcement-banner-container .announcement-link .announcement-title {
+    font-size: 14px;
+    color: #fff;
+    height: inherit;
+    font-weight: 400;
+}
+#home-page-container #hero-banner {
+    height: 495px;
+}
+#home-page-container #hero-banner .hero-banner-container {
+    padding-top: 135px;
+  	background:transparent;
+}
+#home-page-container #hero-banner .hero-banner-container>h2 {
+    margin-bottom: 28px;
+}
+#home-page-container #hero-banner .hero-banner-container:before{
+	background:transparent;
+}
+#home-page-container #hero-banner{
+  background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://github.com/Sampathsampi/images/blob/master/HeroImage_FamilyViolence_Nov2019_0.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#search-form .ficon-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    font-size: 30px;
+    color: #475867;
+    z-index: 2;
+    background: #032261;
+    color: #fff;
+    padding: 8px 18px;
+}
+input.search-input#global-search-home {
+    padding: 12px 35px 16px 18px;
+}
+input.search-input#global-search-home::placeholder{
+	font-size:17px;
+  	color:#495057;
+}
+.quick-link-lister li{
+        width: 100%;
+    margin-right: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px #3E3C6214;
+    padding: 30px;
+    display: inline-block;
+    text-align: center;
+  transition:all 0.5s ease;
+  
+}
+.quick-link-lister li:hover{
+  transform:scale(1.05);
+}
+.quick-link-lister {
+    position: absolute;
+    top: 32em;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    list-style-image: none;
+    padding: 0 86px;
+    margin: 0;
+  width:100%;
+}
+.quick-link-lister li a.quick-link-widgets {
+    color: #333;
+    text-decoration: none;
+}
+.circle {
+    background: transparent !important;
+    border: 0px;
+    border-radius: 50% !important;
+    transition: all 0.5s ease;
+      display: inline-block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.home-catalog-label{
+	    font-size: 22px;
+    color: #032261;
+    font-weight: 600;
+}
+section.popular-banner {
+    width: 100%;
+    margin: 140px 0 0 0;
+}
+.popular-heading{
+	    color: #212529;
+    font-size: 30px;
+    font-weight: 400;
+}
+.popular-content{
+          font-size: 16px;
+    color: #011A3C;
+    font-weight: 400;
+    margin: 0 0 23px 0;
+}
+.popular-content:hover{
+	opacity:0.8;
+  	text-decoration:none;
+}
+.solutions-banner hr {
+    width: 30%;
+    margin: 15px 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.api-helper {
+    box-shadow: 5px 5px 15px #3E3C6214;
+    border-radius: 8px;
+    padding: 25px 50px 2px;
+}
+footer#footer-main{
+  background:#000911;
+  text-align:left;
+}
+.copyright-content{
+	color:#fff;
+  font-size:14px;
+  margin:0;
+}
+#catalog-list-page #wrapper_ele {
+    display: none!important;
+}
+#catalog-list-page #catalog-list-container{
+  margin-left:0;
+}
+#catalog-list-page #catalog-list-container #catalog-list-items #list-items .catalog-item {
+    width: calc(25% - 40px);
+    height: auto;
+    display: block;
+    text-align: center;
+    background: #032261;
+    border-radius: 8px;
+  transition:all 0.5s ease
+}
+#catalog-list-page #catalog-list-container #catalog-list-items #list-items .catalog-item:hover{
+	transform:scale(1.05);
+}
+#catalog-list-page #catalog-list-container #catalog-list-items #list-items .catalog-item:hover, #catalog-list-page #catalog-list-container #catalog-list-items #list-items .catalog-item:focus {
+    background: #032261;
+}
+#catalog-list-page #catalog-list-container #catalog-list-items #list-items .catalog-item .catalog-item-image {
+    width: 104px;
+    height: 104px;
+    margin: auto;
+}
+#catalog-list-page #catalog-list-container #catalog-list-items #list-items .catalog-item .catalog-item-info {
+    width: 100%;
+    color: #fff;
+    padding: 16px;
+    word-break: break-word;
+    text-align: center;
+}
+#catalog-list-page #catalog-list-container #catalog-list-items #list-items .catalog-item .catalog-item-image img{
+  background:transparent;
+}
+#catalog-list-page #catalog-list-container #catalog-list-items #list-items .catalog-item .catalog-item-info .item-time .ficon-ff-clock {
+    opacity: 1;
+    color: #fff;
+}
+#catalog-list-page #catalog-list-container #catalog-list-items #list-items .catalog-item {
+    width: 23%;
+    height: auto;
+    display: block;
+    text-align: center;
+    background: #032261;
+    border-radius: 8px;
+    min-width: 23%;
+    max-width: 24%;
+}
+#catalog-list-page #catalog-list-header {
+  	background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://github.com/Sampathsampi/images/blob/master/HeroImage_FamilyViolence_Nov2019_0.png?raw=true);
+    padding: 8px 24px 16px;
+    background-color: #000;
+    box-sizing: border-box;
+    height: 350px;
+    display: block;
+       align-items: center;
+    background-size: cover;
+    background-position: left;
+}
+#catalog-list-page {
+    margin: 0px auto 0;
+    max-width: 100%;
+    border-radius: 0px;
+    width: 100%;
+}
+#catalog-list-page #catalog-list-header #catalog-list-header-items .catalog-image{
+	display:none;
+}
+#catalog-list-page #catalog-list-header #catalog-list-header-items .catalog-header-info #catalog-title {
+    margin: 0 8px 8px;
+    line-height: 20px;
+    color: #fff;
+}
+#catalog-list-page #catalog-list-header #catalog-list-header-items .catalog-header-info p {
+    margin: 24px 0 0 0;
+    line-height: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+#catalog-list-header nav.breadcrumbs-container {
+    display: none;
+}
+body[page="catalog_items"] #header-main.sticky {
+    position: relative;
+    top: 0;
+    z-index: 10;
+    -moz-box-shadow:none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#catalog-list-page #catalog-list-header #catalog-list-header-items .catalog-header-info {
+    display: block;
+    text-align: left;
+    padding: 11% 0 0 80px;
+}
+#catalog-list-page #catalog-list-container #catalog-list-items {
+    padding: 16px;
+    width: 100%;
+    background: #fff;
+}
+#catalog-list-page #catalog-list-container #catalog-list-items #list-items .catalog-item .catalog-item-info .item-name {
+    font-weight: 600;
+  	font-size:20px;
+}
+@media (max-width:767px){
+	.quick-link-lister {
+    position: relative;
+    top: 25px;
+    display: block;
+    justify-content: space-between;
+    list-style: none;
+    list-style-image: none;
+    padding: 0 34px 0 5px;
+    margin: 0;
+    width: 100%;
+}
+  #home-page-container #hero-banner .hero-banner-container #search-form .ficon-search {
+    top: 0px;
+    right: 0px;
+    font-size: 26px;
+    width: 60px;
+    height: 52px;
+    left: auto;
+}
+  section.popular-banner {
+    width: 100%;
+    margin: 40px 0 0 0;
+}
+  #home-page-container #cards-banner.banner-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+        margin: 0;
+}
+  .api-helper {
+    margin: 20px 0 20px 0;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+  nav.navbar.navbar-expand-lg.navbar-light {
+    position: absolute;
+    z-index: 100000000;
+    right: 0;
+    top: 0;
+}
+  .header-list {
+    display: block;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    line-height: 41px;
+}
+  #home-page-container #hero-banner .hero-banner-container #announcement-banner{
+  display:none;
+  }
+}

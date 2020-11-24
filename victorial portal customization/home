@@ -1,0 +1,170 @@
+<section id="home-page-container">
+  <section id="hero-banner">
+    <div class="hero-banner-container">
+      <h2>{{translate "portal.home_title"}}</h2>
+      <section id="banner-search">
+        <form role='search' id="search-form">
+          <i class="ficon-search" role="presentation"></i>
+          <input
+          type="search"
+          id="global-search-home"
+          class="search-input"
+          aria-label="{{ translate 'portal.search.search_text'}}"
+          placeholder="{{translate 'portal.home_search_placeholder'}}" />
+        </form>
+      </section>
+      <section id="announcement-banner" role="region"
+        aria-label="{{translate 'portal.announcements'}}">
+          <div class="container">
+        {{#announcement}}
+          <div class="announcement-banner-container">
+              <a class="announcement-link" href="/support/announcements/{{id}}">
+                <div class="announcement-latest">
+                 
+                  <div class="announcement-content">
+                    <h2 class="announcement-title">{{title}}</h2>
+                    
+                  </div>
+                </div>
+              </a>
+            <div class="announcement-show-all">
+              <a class="announcement-show-all-link" href="/support/announcements">
+                  {{translate "portal.view_all"}}
+              </a>
+            </div>
+          </div>
+        {{/announcement}}
+          </div>
+      </section>
+    </div>
+  </section>
+<div class="quick-link-wrapper">
+    <ul class="quick-link-lister">
+      <li id="support_tickets">
+        <a href="/support/tickets/new" class="quick-link-widgets">
+          <span class="circle">
+            <span class="icon-your-tickets back-none"><img src="https://raw.githubusercontent.com/Sampathsampi/images/09bdd5e94b9643e0ee76e8632cb34877328280dc/Group%201142.svg" alt="Group691.png"></span>
+          </span>
+          <h3 class="home-catalog-label">Raise a request</h3>
+             
+              </a>
+             
+        
+      </li>
+      <li id="pending_approvals">
+        <a href="/support/tickets/new" class="quick-link-widgets">
+          <span class="circle">
+            <span class="icon-pending-approvals back-none"><img src="https://raw.githubusercontent.com/Sampathsampi/images/09bdd5e94b9643e0ee76e8632cb34877328280dc/%F0%9F%94%8D-Product-Icons%20(3).svg" alt="Group691.png"></span>
+            
+          </span>
+          <h3 class="home-catalog-label">Report an issue</h3>
+            
+        </a>
+      </li>
+      
+      <li id="portal_report_incident">
+        <a href="/support/tickets/new" class="quick-link-widgets">
+           <span class="circle">
+            <span class="icon-report-incident back-none"><img src="https://raw.githubusercontent.com/Sampathsampi/images/09bdd5e94b9643e0ee76e8632cb34877328280dc/Group%201141%20(1).svg" alt="Group691.png"></span>
+          </span>
+           <h3 class="home-catalog-label">Request<br> for information</h3>
+        </a>
+      </li>
+
+      
+      <li id="portal_service_catalog">
+        <a href="/support/tickets" class="quick-link-widgets">
+          <span class="circle">
+            <span class="icon-request-service back-none"><img src="https://raw.githubusercontent.com/Sampathsampi/images/09bdd5e94b9643e0ee76e8632cb34877328280dc/Group%201140.svg" alt="Group691.png"></span>
+          </span>
+          <h3 class="home-catalog-label">View all<br> your tickets</h3>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section id="cards-banner" class="banner-{{cards.length}} hide">
+<!--
+  {{#each cards}}
+    <a href="{{url}}" class="card" {{#if external_image}} target="_blank" {{/if}}>
+    {{image src=img alt="" role="presentation" class="elem-inline-mid" }}
+
+      <div class="elem-inline-mid">
+        <h3>{{title}}
+        {{#if external_image}}
+            {{image src="/images/portal_v2/open-in-new-tab.svg" alt=(translate "portal.aria.external") class="external-link"}}
+        {{/if}}
+        </h3>
+        <p>{{content}}</p>
+      </div>
+    </a>
+  {{/each}}
+
+  </section>
+-->
+  {{#if portal.logged_in}}
+    <section id="home-lists-container" class="list-container">
+      {{> loader}}
+    </section>
+  {{/if}}
+    <section class="popular-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            {{#renderFromApi url="/api/v2/products" method="GET"}}
+
+                <div class="solutions-banner">
+            
+                  <h2 class="popular-heading">Popular services</h2>
+            		<hr>
+                  {{#this}}
+            
+                    <a href="{{#if external_url}}{{external_url}}{{else}}//api/v2/products/{{id}}{{/if}}" class="">
+            
+                       <div class="">
+            
+                         <h3 class="popular-content mb-0">{{title}}</h3>
+            
+                         <p class="hide">{{description}}</p>
+            
+                     </div>
+            
+                     </a>
+            
+                  {{/this}}
+            
+                </div>
+            
+              {{/renderFromApi}}
+          </div>
+          <div class="col-md-6">
+            {{#renderFromApi url="/support/v2/solutions/articles/popular" method="GET"}}
+
+                <div class="solutions-banner">
+            
+                  <h2 class="popular-heading">Popular articles</h2>
+            		<hr>
+                  {{#this}}
+            
+                    <a href="{{#if external_url}}{{external_url}}{{else}}/support/solutions/articles/{{id}}{{/if}}" class="">
+            
+                       <div class="">
+            
+                         <h3 class="popular-content">{{title}}</h3>
+            
+                         <p class="hide">{{description}}</p>
+            
+                     </div>
+            
+                     </a>
+            
+                  {{/this}}
+            
+                </div>
+            
+              {{/renderFromApi}}
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    

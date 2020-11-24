@@ -1,0 +1,49 @@
+ <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <a href="{{#if portal.linkback_url}}{{portal.linkback_url}}{{else}}/support/home{{/if}}" class=""
+          aria-label="{{portal.name}} {{translate "portal.aria.logo"}}">
+          {{image src=portal.logo alt="" class="portal-logo" }}
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-7">
+        <ul class="header-list">
+          
+           <li class="home-menu"> <a href="/support/home" class="active">
+             <span>Home</span>
+            </a></li>
+           <li class="solution-menu"> <a href="/support/solutions">
+              <span>Solutions</span>
+            </a>
+             </li>
+           <li class="service-catalog-menu"> <a href="/support/catalog/items">
+              <span>Service Catalog</span>
+            </a>
+           </li>
+          {{#if portal.logged_in}}
+
+          <li ><a href="/logout" class="header-btn">
+            {{translate "portal.user_dropdown.sign_out"}}
+          </a>
+            </li>
+          {{else}}
+          <li><a href="/support/login" class="header-btn">{{translate "portal.login"}}</a></li>
+          {{#if features.signup }}
+          <li><a href="/support/signup" class="header-btn">{{translate "portal.signup"}}</a></li>
+          {{/if}}
+          {{/if}}
+        </ul>
+      </div>
+    </div>
+  </div>
+<script>
+  jQuery('.navbar-toggler').click(function(){
+  jQuery('.header-list').toggleClass('hide');
+  })
+</script>
