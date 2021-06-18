@@ -1,8 +1,8 @@
 
    [
         {
-            "Origin": "ContactUs",
-            "Vertical": "RECHARGE",
+            "type": "ContactUs",
+            "Source": "RECHARGE",
             "Key": "RECHARGE-ContactUs",
             "Reasons":["Agent did not understand my concern",
                 "Resolution provided was not satisfactory",
@@ -10,8 +10,8 @@
                 "Response/ Resolution took longer than expected"
             ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "SHOPPING ORDER",
+            "type": "ContactUs",
+            "Source": "SHOPPING ORDER",
             "Key": "SHOPPING ORDER-ContactUs",
             "Reasons": ["Not satisfied with resolution",
                 "Agent did not understand my concern",
@@ -20,8 +20,8 @@
                 "Had to contact brand/ seller for resolution"
             ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "SHOPPING ORDER",
+            "type": "Inbound",
+            "Source": "SHOPPING ORDER",
             "Key": "SHOPPING ORDER-Inbound",
             "Reasons":["Not satisfied with resolution",
                 "Long Wait Time","Had to call multiple times for resolution",
@@ -29,8 +29,8 @@
                 "Agent was not professional/ polite"
             ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Food Wallet",
+            "type": "ContactUs",
+            "Source": "Food Wallet",
             "Key": "Food Wallet-ContactUs",
             "Reasons":["Agent did not understand my concern",
                 "Resolution provided was not satisfactory",
@@ -39,8 +39,8 @@
             ]
         },
         {
-            "Origin": "Inbound",
-            "Vertical": "Food Wallet",
+            "type": "Inbound",
+            "Source": "Food Wallet",
             "Key": "Food Wallet-Inbound",
             "Reasons": ["Customer service executive did not understand the concern",
                 "Resolution provided was not satisfactory",
@@ -49,8 +49,8 @@
             ]
         },
         {
-            "Origin": "ContactUs",
-            "Vertical": "Deals",
+            "type": "ContactUs",
+            "Source": "Deals",
             "Key": "Deals-ContactUs",
             "Reasons":["Agent did not understand my concern",
                 "Resolution provided was not satisfactory",
@@ -59,8 +59,8 @@
             ]
         },
         {
-            "Origin": "Inbound",
-            "Vertical": "Deals",
+            "type": "Inbound",
+            "Source": "Deals",
             "Key": "Deals-Inbound",
             "Reasons":["Customer service executive did not understand the concern",
                 "Resolution provided was not satisfactory",
@@ -69,8 +69,8 @@
             ]
         },
         {
-            "Origin": "ContactUs",
-            "Vertical": "3rd Party",
+            "type": "ContactUs",
+            "Source": "3rd Party",
             "Key": "3rd Party-ContactUs",
             "Reasons":["Agent did not understand my concern",
                 "Resolution provided was not satisfactory",
@@ -79,8 +79,8 @@
             ]
         },
         {
-            "Origin": "Inbound",
-            "Vertical": "3rd Party",
+            "type": "Inbound",
+            "Source": "3rd Party",
             "Key": "3rd Party-Inbound",
             "Reasons":["Customer service executive did not understand the concern",
                 "Resolution provided was not satisfactory",
@@ -89,8 +89,8 @@
             ]
         },
         {
-            "Origin": "ContactUs",
-            "Vertical": "WALLET",
+            "type": "ContactUs",
+            "Source": "WALLET",
             "Key": "WALLET-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -98,8 +98,8 @@
             "Response/ Resolution took longer than expected"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "WALLET",
+            "type": "Inbound",
+            "Source": "WALLET",
             "Key": "WALLET-Inbound",
             "Reasons": ["Customer service executive did not understand the concern",
             "Resolution provided was not satisfactory",
@@ -107,8 +107,8 @@
             "Had to call / email multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Payments Bank",
+            "type": "ContactUs",
+            "Source": "Payments Bank",
             "Key": "Payments Bank-ContactUs",
             "Reasons": ["Customer service executive did not understand my concern or asked too much information",
             "Resolution provided was not satisfactory",
@@ -117,8 +117,8 @@
             "I was unnecessarily called by customer care for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Payments Bank",
+            "type": "Inbound",
+            "Source": "Payments Bank",
             "Key": "Payments Bank-Inbound",
             "Reasons": ["Customer service executive did not understand the concern",
             "Resolution provided was not satisfactory",
@@ -127,8 +127,8 @@
             "Unprofessional behavior of executive"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Fastag",
+            "type": "ContactUs",
+            "Source": "Fastag",
             "Key": "Fastag-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Response/ Resolution took longer than expected",
@@ -136,8 +136,8 @@
             "Was asked too much information to resolve the concern"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Fastag",
+            "type": "Inbound",
+            "Source": "Fastag",
             "Key": "Fastag-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Had to call multiple times for resolution",
@@ -145,8 +145,8 @@
             "Long Wait Time"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Paytm Postpaid",
+            "type": "ContactUs",
+            "Source": "Paytm Postpaid",
             "Key": "Paytm Postpaid-ContactUs",
             "Reasons": ["Customer service executive did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -154,8 +154,8 @@
             "Was asked too much information to resolve concern"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Paytm Postpaid",
+            "type": "Inbound",
+            "Source": "Paytm Postpaid",
             "Key": "Paytm Postpaid-Inbound",
             "Reasons": ["Customer service executive did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -163,24 +163,24 @@
             "Had to call multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Insurance",
+            "type": "ContactUs",
+            "Source": "Insurance",
             "Key": "Insurance-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
             "Response/ Resolution took longer than expected"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Insurance",
+            "type": "Inbound",
+            "Source": "Insurance",
             "Key": "Insurance-Inbound",
             "Reasons": ["Customer service executive did not understand the concern",
             "Resolution provided was not satisfactory",
             "Had to call / email multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Paytm Hotel",
+            "type": "ContactUs",
+            "Source": "Paytm Hotel",
             "Key": "Paytm Hotel-ContactUs",
             "Reasons": ["issue not resolved",
             "issue resolved not happy with the resolution",
@@ -188,8 +188,8 @@
             "issue resolved not happy with the product"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "profile",
+            "type": "ContactUs",
+            "Source": "profile",
             "Key": "profile-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -197,8 +197,8 @@
             "Response/ Resolution took longer than expected"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "profile",
+            "type": "Inbound",
+            "Source": "profile",
             "Key": "profile-Inbound",
             "Reasons": ["Customer service executive did not understand the concern",
             "Resolution provided was not satisfactory",
@@ -206,8 +206,8 @@
             "Had to call / email multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "CST-KYC",
+            "type": "ContactUs",
+            "Source": "CST-KYC",
             "Key": "CST-KYC-ContactUs",
             "Reasons": ["Customer Service Executive didn't understand my concern",
             "Resolution provided after multiple follow ups",
@@ -215,8 +215,8 @@
             "Resolution provided is not satisfactory"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Wallet Upgrade",
+            "type": "Inbound",
+            "Source": "Wallet Upgrade",
             "Key": "Wallet Upgrade-Inbound",
             "Reasons": ["Customer Service Executive didn't understand my concern",
             "Resolution provided after multiple follow ups",
@@ -224,8 +224,8 @@
             "Resolution provided is not satisfactory"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Digital Gold",
+            "type": "ContactUs",
+            "Source": "Digital Gold",
             "Key": "Digital Gold-ContactUs",
             "Reasons": ["Customer service executive did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -233,8 +233,8 @@
             "Was asked too much information to resolve concern"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Digital Gold",
+            "type": "Inbound",
+            "Source": "Digital Gold",
             "Key": "Digital Gold-Inbound",
             "Reasons": ["Customer service executive did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -242,8 +242,8 @@
             "Had to call multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Entertainment Events",
+            "type": "ContactUs",
+            "Source": "Entertainment Events",
             "Key": "Entertainment Events-ContactUs",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -251,8 +251,8 @@
             "Resolution was delayed"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Entertainment Events",
+            "type": "Inbound",
+            "Source": "Entertainment Events",
             "Key": "Entertainment Events-Inbound",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -260,8 +260,8 @@
             "Had to call multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Movie Tickets",
+            "type": "ContactUs",
+            "Source": "Movie Tickets",
             "Key": "Movie Tickets-ContactUs",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -269,8 +269,8 @@
             "Resolution was delayed"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Movie Tickets",
+            "type": "Inbound",
+            "Source": "Movie Tickets",
             "Key": "Movie Tickets-Inbound",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -278,8 +278,8 @@
             "Had to call multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Theme Parks",
+            "type": "ContactUs",
+            "Source": "Theme Parks",
             "Key": "Theme Parks-ContactUs",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -287,8 +287,8 @@
             "Resolution was delayed"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Theme Parks",
+            "type": "Inbound",
+            "Source": "Theme Parks",
             "Key": "Theme Parks-Inbound",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -296,8 +296,8 @@
             "Had to call multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Flights",
+            "type": "ContactUs",
+            "Source": "Flights",
             "Key": "Flights-ContactUs",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -305,8 +305,8 @@
             "Resolution was delayed"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Flights",
+            "type": "Inbound",
+            "Source": "Flights",
             "Key": "Flights-Inbound",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -314,8 +314,8 @@
             "Had to call multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Trains",
+            "type": "ContactUs",
+            "Source": "Trains",
             "Key": "Trains-ContactUs",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -323,8 +323,8 @@
             "Resolution was delayed"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Trains",
+            "type": "Inbound",
+            "Source": "Trains",
             "Key": "Trains-Inbound",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -332,8 +332,8 @@
             "Had to call multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Tickets",
+            "type": "ContactUs",
+            "Source": "Tickets",
             "Key": "Tickets-ContactUs",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -341,8 +341,8 @@
             "Resolution was delayed"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Tickets",
+            "type": "Inbound",
+            "Source": "Tickets",
             "Key": "Tickets-Inbound",
             "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
             "Resolution Provided Did Not Meet My Expectation",
@@ -350,16 +350,16 @@
             "Had to call multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Paytm Hotel",
+            "type": "Inbound",
+            "Source": "Paytm Hotel",
             "Key": "Paytm Hotel-Inbound",
             "Reasons": ["issue not resolved",
             "issue resolved not happy with the resolution",
             "issue resolved not happy with the agent"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Default",
+            "type": "Inbound",
+            "Source": "Default",
             "Key": "Default-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -368,8 +368,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Default",
+            "type": "ContactUs",
+            "Source": "Default",
             "Key": "Default-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -378,8 +378,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "UPI",
+            "type": "ContactUs",
+            "Source": "UPI",
             "Key": "UPI-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -388,8 +388,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "UPI",
+            "type": "Inbound",
+            "Source": "UPI",
             "Key": "UPI-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -398,8 +398,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Education",
+            "type": "Inbound",
+            "Source": "Education",
             "Key": "Education-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -408,8 +408,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Education",
+            "type": "ContactUs",
+            "Source": "Education",
             "Key": "Education-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -418,8 +418,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Education-L1",
+            "type": "Inbound",
+            "Source": "Education-L1",
             "Key": "Education-L1-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -428,8 +428,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Education-L1",
+            "type": "ContactUs",
+            "Source": "Education-L1",
             "Key": "Education-L1-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -438,8 +438,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Gift_Cards",
+            "type": "Inbound",
+            "Source": "Gift_Cards",
             "Key": "Gift_Cards-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -448,8 +448,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Gift_Cards",
+            "type": "ContactUs",
+            "Source": "Gift_Cards",
             "Key": "Gift_Cards-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -458,8 +458,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Nearby",
+            "type": "Inbound",
+            "Source": "Nearby",
             "Key": "Nearby-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -468,8 +468,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Nearby",
+            "type": "ContactUs",
+            "Source": "Nearby",
             "Key": "Nearby-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -478,8 +478,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "privacyandsecurity",
+            "type": "Inbound",
+            "Source": "privacyandsecurity",
             "Key": "privacyandsecurity-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -488,8 +488,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "privacyandsecurity",
+            "type": "ContactUs",
+            "Source": "privacyandsecurity",
             "Key": "privacyandsecurity-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -498,8 +498,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Scooter",
+            "type": "Inbound",
+            "Source": "Scooter",
             "Key": "Scooter-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -508,8 +508,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Scooter",
+            "type": "ContactUs",
+            "Source": "Scooter",
             "Key": "Scooter-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -518,8 +518,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Wallet Security",
+            "type": "Inbound",
+            "Source": "Wallet Security",
             "Key": "Wallet Security-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -528,8 +528,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Wallet Security",
+            "type": "ContactUs",
+            "Source": "Wallet Security",
             "Key": "Wallet Security-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -538,8 +538,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Shopping Order - Return/Replacement",
+            "type": "Inbound",
+            "Source": "Shopping Order - Return/Replacement",
             "Key": "Shopping Order - Return/Replacement-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -548,8 +548,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Shopping Order - Return/Replacement",
+            "type": "ContactUs",
+            "Source": "Shopping Order - Return/Replacement",
             "Key": "Shopping Order - Return/Replacement-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -558,8 +558,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Digital Credit",
+            "type": "Inbound",
+            "Source": "Digital Credit",
             "Key": "Digital Credit-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -568,8 +568,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Digital Credit",
+            "type": "ContactUs",
+            "Source": "Digital Credit",
             "Key": "Digital Credit-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -578,8 +578,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Paytm Play",
+            "type": "Inbound",
+            "Source": "Paytm Play",
             "Key": "Paytm Play-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -588,8 +588,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Paytm Play",
+            "type": "ContactUs",
+            "Source": "Paytm Play",
             "Key": "Paytm Play-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -598,8 +598,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Paytm Money",
+            "type": "Inbound",
+            "Source": "Paytm Money",
             "Key": "Paytm Money-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -608,8 +608,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Paytm Money",
+            "type": "ContactUs",
+            "Source": "Paytm Money",
             "Key": "Paytm Money-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -618,8 +618,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Forex",
+            "type": "Inbound",
+            "Source": "Forex",
             "Key": "Forex-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -628,8 +628,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Forex",
+            "type": "ContactUs",
+            "Source": "Forex",
             "Key": "Forex-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -638,8 +638,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Accept Payments for your business with Paytm",
+            "type": "Inbound",
+            "Source": "Accept Payments for your business with Paytm",
             "Key": "Accept Payments for your business with Paytm-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -648,8 +648,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Accept Payments for your business with Paytm",
+            "type": "ContactUs",
+            "Source": "Accept Payments for your business with Paytm",
             "Key": "Accept Payments for your business with Paytm-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -658,8 +658,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Payments Bank Security",
+            "type": "Inbound",
+            "Source": "Payments Bank Security",
             "Key": "Payments Bank Security-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -668,8 +668,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Payments Bank Security",
+            "type": "ContactUs",
+            "Source": "Payments Bank Security",
             "Key": "Payments Bank Security-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -678,8 +678,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Netbanking BSA",
+            "type": "Inbound",
+            "Source": "Netbanking BSA",
             "Key": "Netbanking BSA-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -688,8 +688,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Netbanking BSA",
+            "type": "ContactUs",
+            "Source": "Netbanking BSA",
             "Key": "Netbanking BSA-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -698,8 +698,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Food",
+            "type": "Inbound",
+            "Source": "Food",
             "Key": "Food-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -708,8 +708,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Food",
+            "type": "ContactUs",
+            "Source": "Food",
             "Key": "Food-ContactUs",
             "undefined": "CU0010",
             "Reasons": ["Agent did not understand my concern",
@@ -719,8 +719,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Paytm Cloud",
+            "type": "Inbound",
+            "Source": "Paytm Cloud",
             "Key": "Paytm Cloud-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -729,8 +729,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Paytm Cloud",
+            "type": "ContactUs",
+            "Source": "Paytm Cloud",
             "Key": "Paytm Cloud-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -739,8 +739,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "Inbound",
-            "Vertical": "Payment Bank-Current Account",
+            "type": "Inbound",
+            "Source": "Payment Bank-Current Account",
             "Key": "Payment Bank-Current Account-Inbound",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -749,8 +749,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Payment Bank-Current Account",
+            "type": "ContactUs",
+            "Source": "Payment Bank-Current Account",
             "Key": "Payment Bank-Current Account-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
@@ -759,8 +759,8 @@
             "Had to follow up multiple times for resolution"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Paytm Prime",
+            "type": "ContactUs",
+            "Source": "Paytm Prime",
             "Key": "Paytm Prime-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Response/ Resolution took longer than expected",
@@ -768,8 +768,8 @@
             "Resolution provided was not satisfactory"
         ]},
         {
-            "Origin": "ContactUs",
-            "Vertical": "Paytm Credit Card",
+            "type": "ContactUs",
+            "Source": "Paytm Credit Card",
             "Key": "Paytm Credit Card-ContactUs",
             "Reasons": ["Agent did not understand my concern",
             "Response/ Resolution took longer than expected",
@@ -777,8 +777,8 @@
             "Resolution provided was not satisfactory"
         ]},
         {
-            "Origin": "nodalofficer@paytmbank.com",
-            "Vertical": "Default",
+            "type": "nodalofficer@paytmbank.com",
+            "Source": "Default",
             "Key": "Default-nodalofficer@paytmbank.com",
             "Reasons": ["Was asked to coordinate with another bank/party",
             "Response/ Resolution took longer than expected",
@@ -786,8 +786,8 @@
             "Customer service executive did not understand my concern"
         ]},
         {
-            "Origin": "default",
-            "Vertical": "default",
+            "type": "default",
+            "Source": "default",
             "Key": "default-default",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
