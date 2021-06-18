@@ -786,9 +786,9 @@
             "Customer service executive did not understand my concern"
         ]},
         {
-            "type": "default",
-            "Source": "default",
-            "Key": "default-default",
+            "type": "",
+            "Source": "",
+            "Key": "",
             "Reasons": ["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
             "Was asked too much information to resolve the concern",
