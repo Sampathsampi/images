@@ -1,797 +1,797 @@
 
    [
-        {
-            "type": "ContactUs",
-            "Source": "RECHARGE",
-            "Key": "RECHARGE-ContactUs",
-            "Reasons":["Agent did not understand my concern",
-                "Resolution provided was not satisfactory",
-                "Had to contact operator to get resolution",
-                "Response/ Resolution took longer than expected"
-            ]},
-        {
-            "type": "ContactUs",
-            "Source": "SHOPPING ORDER",
-            "Key": "SHOPPING ORDER-ContactUs",
-            "Reasons": ["Not satisfied with resolution",
-                "Agent did not understand my concern",
-                "Response/ Resolution took longer than expected",
-                "Was asked too much information",
-                "Had to contact brand/ seller for resolution"
-            ]},
-        {
-            "type": "Inbound",
-            "Source": "SHOPPING ORDER",
-            "Key": "SHOPPING ORDER-Inbound",
-            "Reasons":["Not satisfied with resolution",
-                "Long Wait Time","Had to call multiple times for resolution",
-                "Agent did not understand my concern",
-                "Agent was not professional/ polite"
-            ]},
-        {
-            "type": "ContactUs",
-            "Source": "Food Wallet",
-            "Key": "Food Wallet-ContactUs",
-            "Reasons":["Agent did not understand my concern",
-                "Resolution provided was not satisfactory",
-                "Was asked too much information to resolve the concern",
-                "Response/ Resolution took longer than expected"
-            ]
-        },
-        {
-            "type": "Inbound",
-            "Source": "Food Wallet",
-            "Key": "Food Wallet-Inbound",
-            "Reasons": ["Customer service executive did not understand the concern",
-                "Resolution provided was not satisfactory",
-                "Time to answer call or hold time was too long",
-                "Had to call / email multiple times for resolution"
-            ]
-        },
-        {
-            "type": "ContactUs",
-            "Source": "Deals",
-            "Key": "Deals-ContactUs",
-            "Reasons":["Agent did not understand my concern",
-                "Resolution provided was not satisfactory",
-                "Was asked too much information to resolve the concern",
-                "Response/ Resolution took longer than expected"
-            ]
-        },
-        {
-            "type": "Inbound",
-            "Source": "Deals",
-            "Key": "Deals-Inbound",
-            "Reasons":["Customer service executive did not understand the concern",
-                "Resolution provided was not satisfactory",
-                "Time to answer call or hold time was too long",
-                "Had to call / email multiple times for resolution"
-            ]
-        },
-        {
-            "type": "ContactUs",
-            "Source": "3rd Party",
-            "Key": "3rd Party-ContactUs",
-            "Reasons":["Agent did not understand my concern",
-                "Resolution provided was not satisfactory",
-                "Was asked too much information to resolve the concern",
-                "Response/ Resolution took longer than expected"
-            ]
-        },
-        {
-            "type": "Inbound",
-            "Source": "3rd Party",
-            "Key": "3rd Party-Inbound",
-            "Reasons":["Customer service executive did not understand the concern",
-                "Resolution provided was not satisfactory",
-                "Time to answer call or hold time was too long",
-                "Had to call / email multiple times for resolution"
-            ]
-        },
-        {
-            "type": "ContactUs",
-            "Source": "WALLET",
-            "Key": "WALLET-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
+    {
+        "type": "ContactUs",
+        "Source": "RECHARGE",
+        "Key": "RECHARGE-ContactUs",
+        "Reasons":["Agent did not understand my concern",
+            "Resolution provided was not satisfactory",
+            "Had to contact operator to get resolution",
+            "Response/ Resolution took longer than expected"
+        ]},
+    {
+        "type": "ContactUs",
+        "Source": "SHOPPING ORDER",
+        "Key": "SHOPPING ORDER-ContactUs",
+        "Reasons": ["Not satisfied with resolution",
+            "Agent did not understand my concern",
+            "Response/ Resolution took longer than expected",
+            "Was asked too much information",
+            "Had to contact brand/ seller for resolution"
+        ]},
+    {
+        "type": "Inbound",
+        "Source": "SHOPPING ORDER",
+        "Key": "SHOPPING ORDER-Inbound",
+        "Reasons":["Not satisfied with resolution",
+            "Long Wait Time","Had to call multiple times for resolution",
+            "Agent did not understand my concern",
+            "Agent was not professional/ polite"
+        ]},
+    {
+        "type": "ContactUs",
+        "Source": "Food Wallet",
+        "Key": "Food Wallet-ContactUs",
+        "Reasons":["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
             "Was asked too much information to resolve the concern",
             "Response/ Resolution took longer than expected"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "WALLET",
-            "Key": "WALLET-Inbound",
-            "Reasons": ["Customer service executive did not understand the concern",
+        ]
+    },
+    {
+        "type": "Inbound",
+        "Source": "Food Wallet",
+        "Key": "Food Wallet-Inbound",
+        "Reasons": ["Customer service executive did not understand the concern",
             "Resolution provided was not satisfactory",
             "Time to answer call or hold time was too long",
             "Had to call / email multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Payments Bank",
-            "Key": "Payments Bank-ContactUs",
-            "Reasons": ["Customer service executive did not understand my concern or asked too much information",
-            "Resolution provided was not satisfactory",
-            "Was asked to coordinate with another bank/party",
-            "Response/ Resolution took longer than expected",
-            "I was unnecessarily called by customer care for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Payments Bank",
-            "Key": "Payments Bank-Inbound",
-            "Reasons": ["Customer service executive did not understand the concern",
-            "Resolution provided was not satisfactory",
-            "Time to answer call or hold time was too long",
-            "Had to call / email multiple times for resolution",
-            "Unprofessional behavior of executive"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Fastag",
-            "Key": "Fastag-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Response/ Resolution took longer than expected",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Fastag",
-            "Key": "Fastag-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Had to call multiple times for resolution",
-            "Not satisfied with resolution",
-            "Long Wait Time"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Paytm Postpaid",
-            "Key": "Paytm Postpaid-ContactUs",
-            "Reasons": ["Customer service executive did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Response/Resolution was delayed",
-            "Was asked too much information to resolve concern"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Paytm Postpaid",
-            "Key": "Paytm Postpaid-Inbound",
-            "Reasons": ["Customer service executive did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "time to answer call / hold time was too long",
-            "Had to call multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Insurance",
-            "Key": "Insurance-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Response/ Resolution took longer than expected"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Insurance",
-            "Key": "Insurance-Inbound",
-            "Reasons": ["Customer service executive did not understand the concern",
-            "Resolution provided was not satisfactory",
-            "Had to call / email multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Paytm Hotel",
-            "Key": "Paytm Hotel-ContactUs",
-            "Reasons": ["issue not resolved",
-            "issue resolved not happy with the resolution",
-            "issue resolved not happy with the agent",
-            "issue resolved not happy with the product"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "profile",
-            "Key": "profile-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
+        ]
+    },
+    {
+        "type": "ContactUs",
+        "Source": "Deals",
+        "Key": "Deals-ContactUs",
+        "Reasons":["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
             "Was asked too much information to resolve the concern",
             "Response/ Resolution took longer than expected"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "profile",
-            "Key": "profile-Inbound",
-            "Reasons": ["Customer service executive did not understand the concern",
+        ]
+    },
+    {
+        "type": "Inbound",
+        "Source": "Deals",
+        "Key": "Deals-Inbound",
+        "Reasons":["Customer service executive did not understand the concern",
             "Resolution provided was not satisfactory",
             "Time to answer call or hold time was too long",
             "Had to call / email multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "CST-KYC",
-            "Key": "CST-KYC-ContactUs",
-            "Reasons": ["Customer Service Executive didn't understand my concern",
-            "Resolution provided after multiple follow ups",
-            "Too much information asked for solving queries",
-            "Resolution provided is not satisfactory"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Wallet Upgrade",
-            "Key": "Wallet Upgrade-Inbound",
-            "Reasons": ["Customer Service Executive didn't understand my concern",
-            "Resolution provided after multiple follow ups",
-            "Too much information asked for solving queries",
-            "Resolution provided is not satisfactory"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Digital Gold",
-            "Key": "Digital Gold-ContactUs",
-            "Reasons": ["Customer service executive did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Response/Resolution was delayed",
-            "Was asked too much information to resolve concern"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Digital Gold",
-            "Key": "Digital Gold-Inbound",
-            "Reasons": ["Customer service executive did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "time to answer call / hold time was too long",
-            "Had to call multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Entertainment Events",
-            "Key": "Entertainment Events-ContactUs",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Approached multiple times for the resolution",
-            "Resolution was delayed"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Entertainment Events",
-            "Key": "Entertainment Events-Inbound",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Long Wait Time",
-            "Had to call multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Movie Tickets",
-            "Key": "Movie Tickets-ContactUs",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Approached multiple times for the resolution",
-            "Resolution was delayed"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Movie Tickets",
-            "Key": "Movie Tickets-Inbound",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Long Wait Time",
-            "Had to call multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Theme Parks",
-            "Key": "Theme Parks-ContactUs",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Approached multiple times for the resolution",
-            "Resolution was delayed"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Theme Parks",
-            "Key": "Theme Parks-Inbound",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Long Wait Time",
-            "Had to call multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Flights",
-            "Key": "Flights-ContactUs",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Unhappy with the options provided for Booking/Cancellation",
-            "Resolution was delayed"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Flights",
-            "Key": "Flights-Inbound",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Long Wait Time",
-            "Had to call multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Trains",
-            "Key": "Trains-ContactUs",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Unhappy with the options provided for Booking/Cancellation",
-            "Resolution was delayed"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Trains",
-            "Key": "Trains-Inbound",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Long Wait Time",
-            "Had to call multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Tickets",
-            "Key": "Tickets-ContactUs",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Unhappy with the options provided for Booking/Cancellation",
-            "Resolution was delayed"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Tickets",
-            "Key": "Tickets-Inbound",
-            "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
-            "Resolution Provided Did Not Meet My Expectation",
-            "Long Wait Time",
-            "Had to call multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Paytm Hotel",
-            "Key": "Paytm Hotel-Inbound",
-            "Reasons": ["issue not resolved",
-            "issue resolved not happy with the resolution",
-            "issue resolved not happy with the agent"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Default",
-            "Key": "Default-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Default",
-            "Key": "Default-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "UPI",
-            "Key": "UPI-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "UPI",
-            "Key": "UPI-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Education",
-            "Key": "Education-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Education",
-            "Key": "Education-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Education-L1",
-            "Key": "Education-L1-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Education-L1",
-            "Key": "Education-L1-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Gift_Cards",
-            "Key": "Gift_Cards-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Gift_Cards",
-            "Key": "Gift_Cards-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Nearby",
-            "Key": "Nearby-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Nearby",
-            "Key": "Nearby-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "privacyandsecurity",
-            "Key": "privacyandsecurity-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "privacyandsecurity",
-            "Key": "privacyandsecurity-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Scooter",
-            "Key": "Scooter-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Scooter",
-            "Key": "Scooter-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Wallet Security",
-            "Key": "Wallet Security-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Wallet Security",
-            "Key": "Wallet Security-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Shopping Order - Return/Replacement",
-            "Key": "Shopping Order - Return/Replacement-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Shopping Order - Return/Replacement",
-            "Key": "Shopping Order - Return/Replacement-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Digital Credit",
-            "Key": "Digital Credit-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Digital Credit",
-            "Key": "Digital Credit-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Paytm Play",
-            "Key": "Paytm Play-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Paytm Play",
-            "Key": "Paytm Play-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Paytm Money",
-            "Key": "Paytm Money-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Paytm Money",
-            "Key": "Paytm Money-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Forex",
-            "Key": "Forex-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Forex",
-            "Key": "Forex-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Accept Payments for your business with Paytm",
-            "Key": "Accept Payments for your business with Paytm-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Accept Payments for your business with Paytm",
-            "Key": "Accept Payments for your business with Paytm-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Payments Bank Security",
-            "Key": "Payments Bank Security-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Payments Bank Security",
-            "Key": "Payments Bank Security-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Netbanking BSA",
-            "Key": "Netbanking BSA-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Netbanking BSA",
-            "Key": "Netbanking BSA-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Food",
-            "Key": "Food-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Food",
-            "Key": "Food-ContactUs",
-            "undefined": "CU0010",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Paytm Cloud",
-            "Key": "Paytm Cloud-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Paytm Cloud",
-            "Key": "Paytm Cloud-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "Inbound",
-            "Source": "Payment Bank-Current Account",
-            "Key": "Payment Bank-Current Account-Inbound",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Payment Bank-Current Account",
-            "Key": "Payment Bank-Current Account-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Resolution provided was not satisfactory",
-            "Was asked too much information to resolve the concern",
-            "Response/ Resolution took longer than expected",
-            "Had to follow up multiple times for resolution"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Paytm Prime",
-            "Key": "Paytm Prime-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Response/ Resolution took longer than expected",
-            "Had to contact brand/ seller for resolution",
-            "Resolution provided was not satisfactory"
-        ]},
-        {
-            "type": "ContactUs",
-            "Source": "Paytm Credit Card",
-            "Key": "Paytm Credit Card-ContactUs",
-            "Reasons": ["Agent did not understand my concern",
-            "Response/ Resolution took longer than expected",
-            "Had to contact brand/ seller for resolution",
-            "Resolution provided was not satisfactory"
-        ]},
-        {
-            "type": "nodalofficer@paytmbank.com",
-            "Source": "Default",
-            "Key": "Default-nodalofficer@paytmbank.com",
-            "Reasons": ["Was asked to coordinate with another bank/party",
-            "Response/ Resolution took longer than expected",
-            "Resolution provided is not satisfactory",
-            "Customer service executive did not understand my concern"
-        ]},
-        {
-            "type": "",
-            "Source": "",
-            "Key": "",
-            "Reasons": ["Agent did not understand my concern",
+        ]
+    },
+    {
+        "type": "ContactUs",
+        "Source": "3rd Party",
+        "Key": "3rd Party-ContactUs",
+        "Reasons":["Agent did not understand my concern",
             "Resolution provided was not satisfactory",
             "Was asked too much information to resolve the concern",
             "Response/ Resolution took longer than expected"
-        ]}
-    ]
+        ]
+    },
+    {
+        "type": "Inbound",
+        "Source": "3rd Party",
+        "Key": "3rd Party-Inbound",
+        "Reasons":["Customer service executive did not understand the concern",
+            "Resolution provided was not satisfactory",
+            "Time to answer call or hold time was too long",
+            "Had to call / email multiple times for resolution"
+        ]
+    },
+    {
+        "type": "ContactUs",
+        "Source": "WALLET",
+        "Key": "WALLET-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "WALLET",
+        "Key": "WALLET-Inbound",
+        "Reasons": ["Customer service executive did not understand the concern",
+        "Resolution provided was not satisfactory",
+        "Time to answer call or hold time was too long",
+        "Had to call / email multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Payments Bank",
+        "Key": "Payments Bank-ContactUs",
+        "Reasons": ["Customer service executive did not understand my concern or asked too much information",
+        "Resolution provided was not satisfactory",
+        "Was asked to coordinate with another bank/party",
+        "Response/ Resolution took longer than expected",
+        "I was unnecessarily called by customer care for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Payments Bank",
+        "Key": "Payments Bank-Inbound",
+        "Reasons": ["Customer service executive did not understand the concern",
+        "Resolution provided was not satisfactory",
+        "Time to answer call or hold time was too long",
+        "Had to call / email multiple times for resolution",
+        "Unprofessional behavior of executive"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Fastag",
+        "Key": "Fastag-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Response/ Resolution took longer than expected",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Fastag",
+        "Key": "Fastag-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Had to call multiple times for resolution",
+        "Not satisfied with resolution",
+        "Long Wait Time"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Paytm Postpaid",
+        "Key": "Paytm Postpaid-ContactUs",
+        "Reasons": ["Customer service executive did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Response/Resolution was delayed",
+        "Was asked too much information to resolve concern"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Paytm Postpaid",
+        "Key": "Paytm Postpaid-Inbound",
+        "Reasons": ["Customer service executive did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "time to answer call / hold time was too long",
+        "Had to call multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Insurance",
+        "Key": "Insurance-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Response/ Resolution took longer than expected"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Insurance",
+        "Key": "Insurance-Inbound",
+        "Reasons": ["Customer service executive did not understand the concern",
+        "Resolution provided was not satisfactory",
+        "Had to call / email multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Paytm Hotel",
+        "Key": "Paytm Hotel-ContactUs",
+        "Reasons": ["issue not resolved",
+        "issue resolved not happy with the resolution",
+        "issue resolved not happy with the agent",
+        "issue resolved not happy with the product"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "profile",
+        "Key": "profile-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "profile",
+        "Key": "profile-Inbound",
+        "Reasons": ["Customer service executive did not understand the concern",
+        "Resolution provided was not satisfactory",
+        "Time to answer call or hold time was too long",
+        "Had to call / email multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "CST-KYC",
+        "Key": "CST-KYC-ContactUs",
+        "Reasons": ["Customer Service Executive didn't understand my concern",
+        "Resolution provided after multiple follow ups",
+        "Too much information asked for solving queries",
+        "Resolution provided is not satisfactory"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Wallet Upgrade",
+        "Key": "Wallet Upgrade-Inbound",
+        "Reasons": ["Customer Service Executive didn't understand my concern",
+        "Resolution provided after multiple follow ups",
+        "Too much information asked for solving queries",
+        "Resolution provided is not satisfactory"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Digital Gold",
+        "Key": "Digital Gold-ContactUs",
+        "Reasons": ["Customer service executive did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Response/Resolution was delayed",
+        "Was asked too much information to resolve concern"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Digital Gold",
+        "Key": "Digital Gold-Inbound",
+        "Reasons": ["Customer service executive did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "time to answer call / hold time was too long",
+        "Had to call multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Entertainment Events",
+        "Key": "Entertainment Events-ContactUs",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Approached multiple times for the resolution",
+        "Resolution was delayed"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Entertainment Events",
+        "Key": "Entertainment Events-Inbound",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Long Wait Time",
+        "Had to call multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Movie Tickets",
+        "Key": "Movie Tickets-ContactUs",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Approached multiple times for the resolution",
+        "Resolution was delayed"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Movie Tickets",
+        "Key": "Movie Tickets-Inbound",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Long Wait Time",
+        "Had to call multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Theme Parks",
+        "Key": "Theme Parks-ContactUs",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Approached multiple times for the resolution",
+        "Resolution was delayed"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Theme Parks",
+        "Key": "Theme Parks-Inbound",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Long Wait Time",
+        "Had to call multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Flights",
+        "Key": "Flights-ContactUs",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Unhappy with the options provided for Booking/Cancellation",
+        "Resolution was delayed"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Flights",
+        "Key": "Flights-Inbound",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Long Wait Time",
+        "Had to call multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Trains",
+        "Key": "Trains-ContactUs",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Unhappy with the options provided for Booking/Cancellation",
+        "Resolution was delayed"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Trains",
+        "Key": "Trains-Inbound",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Long Wait Time",
+        "Had to call multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Tickets",
+        "Key": "Tickets-ContactUs",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Unhappy with the options provided for Booking/Cancellation",
+        "Resolution was delayed"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Tickets",
+        "Key": "Tickets-Inbound",
+        "Reasons": ["Interaction with the Customer Service Representative Wasn't Good",
+        "Resolution Provided Did Not Meet My Expectation",
+        "Long Wait Time",
+        "Had to call multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Paytm Hotel",
+        "Key": "Paytm Hotel-Inbound",
+        "Reasons": ["issue not resolved",
+        "issue resolved not happy with the resolution",
+        "issue resolved not happy with the agent"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Default",
+        "Key": "Default-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Default",
+        "Key": "Default-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "UPI",
+        "Key": "UPI-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "UPI",
+        "Key": "UPI-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Education",
+        "Key": "Education-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Education",
+        "Key": "Education-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Education-L1",
+        "Key": "Education-L1-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Education-L1",
+        "Key": "Education-L1-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Gift_Cards",
+        "Key": "Gift_Cards-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Gift_Cards",
+        "Key": "Gift_Cards-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Nearby",
+        "Key": "Nearby-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Nearby",
+        "Key": "Nearby-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "privacyandsecurity",
+        "Key": "privacyandsecurity-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "privacyandsecurity",
+        "Key": "privacyandsecurity-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Scooter",
+        "Key": "Scooter-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Scooter",
+        "Key": "Scooter-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Wallet Security",
+        "Key": "Wallet Security-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Wallet Security",
+        "Key": "Wallet Security-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Shopping Order - Return/Replacement",
+        "Key": "Shopping Order - Return/Replacement-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Shopping Order - Return/Replacement",
+        "Key": "Shopping Order - Return/Replacement-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Digital Credit",
+        "Key": "Digital Credit-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Digital Credit",
+        "Key": "Digital Credit-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Paytm Play",
+        "Key": "Paytm Play-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Paytm Play",
+        "Key": "Paytm Play-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Paytm Money",
+        "Key": "Paytm Money-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Paytm Money",
+        "Key": "Paytm Money-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Forex",
+        "Key": "Forex-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Forex",
+        "Key": "Forex-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Accept Payments for your business with Paytm",
+        "Key": "Accept Payments for your business with Paytm-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Accept Payments for your business with Paytm",
+        "Key": "Accept Payments for your business with Paytm-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Payments Bank Security",
+        "Key": "Payments Bank Security-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Payments Bank Security",
+        "Key": "Payments Bank Security-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Netbanking BSA",
+        "Key": "Netbanking BSA-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Netbanking BSA",
+        "Key": "Netbanking BSA-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Food",
+        "Key": "Food-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Food",
+        "Key": "Food-ContactUs",
+        "undefined": "CU0010",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Paytm Cloud",
+        "Key": "Paytm Cloud-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Paytm Cloud",
+        "Key": "Paytm Cloud-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "Inbound",
+        "Source": "Payment Bank-Current Account",
+        "Key": "Payment Bank-Current Account-Inbound",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Payment Bank-Current Account",
+        "Key": "Payment Bank-Current Account-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected",
+        "Had to follow up multiple times for resolution"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Paytm Prime",
+        "Key": "Paytm Prime-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Response/ Resolution took longer than expected",
+        "Had to contact brand/ seller for resolution",
+        "Resolution provided was not satisfactory"
+    ]},
+    {
+        "type": "ContactUs",
+        "Source": "Paytm Credit Card",
+        "Key": "Paytm Credit Card-ContactUs",
+        "Reasons": ["Agent did not understand my concern",
+        "Response/ Resolution took longer than expected",
+        "Had to contact brand/ seller for resolution",
+        "Resolution provided was not satisfactory"
+    ]},
+    {
+        "type": "nodalofficer@paytmbank.com",
+        "Source": "",
+        "Key": "Default-nodalofficer@paytmbank.com",
+        "Reasons": ["Was asked to coordinate with another bank/party",
+        "Response/ Resolution took longer than expected",
+        "Resolution provided is not satisfactory",
+        "Customer service executive did not understand my concern"
+    ]},
+    {
+        "type": "",
+        "Source": "",
+        "Key": "",
+        "Reasons": ["Agent did not understand my concern",
+        "Resolution provided was not satisfactory",
+        "Was asked too much information to resolve the concern",
+        "Response/ Resolution took longer than expected"
+    ]}
+]
